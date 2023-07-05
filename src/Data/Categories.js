@@ -1,0 +1,15 @@
+export const Categories = [
+    'Romantic',
+    "Action",
+    "Horror",
+    "Comedy",
+    "Adventure",
+    "Sports",
+    "Fantaty",
+    "Musicals",
+    "Drama",
+    "Thriller",
+    "Western",
+    "Historical",
+    "Science",
+]
