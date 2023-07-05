@@ -15,7 +15,7 @@ export default function AddMovie() {
     const userData = useSelector(state => state.user)
 
     const [addCast, setAddCast] = useState(false)
-    const [casts, setCasts] = useState()
+    const [casts, setCasts] = useState({})
     const [listCast, setListCast] = useState([])
 
     const [name, setName] = useState("")

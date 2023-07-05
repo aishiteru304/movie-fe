@@ -5,7 +5,7 @@ import { FiUploadCloud } from 'react-icons/fi'
 import { ImagetoBase64 } from '../Utility/ImageToBase64'
 
 export default function Uploader({ onChange }) {
-    const [src, setSrc] = useState()
+    const [src, setSrc] = useState('')
     const { getRootProps, getInputProps } = useDropzone({
         multiple: false,
         maxSize: 1000000,

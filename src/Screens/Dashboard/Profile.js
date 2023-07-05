@@ -8,7 +8,7 @@ import { setDataUser } from '../../Redux/userSlice'
 import { toast } from 'react-hot-toast'
 
 export default function Profile() {
-    const [avatar, setAvatar] = useState()
+    const [avatar, setAvatar] = useState('')
     const [fullName, setFullName] = useState("")
     const userData = useSelector(state => state.user)
     const dispatch = useDispatch()

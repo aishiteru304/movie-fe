@@ -33,7 +33,7 @@ const Ratings = [
     },
 ]
 export default function MovieRates({ movie }) {
-    const [message, setMessage] = useState()
+    const [message, setMessage] = useState('')
     const [selectRating, setSelectRating] = useState(0)
     const userData = useSelector(state => state.user)
 
