@@ -35,7 +35,7 @@ export default function Banner() {
                                                 <FlexMovieItems movie={movie} />
                                             </div>
                                             <div className='flex gap-5 items-center'>
-                                                <Link to='/' className='bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs'>Watch</Link>
+                                                <Link to={`/watch/${movie._id}`} className='bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs'>Watch</Link>
                                                 {/* <button className='bg-white hover:text-subMain transitions text-white px-4 py-3 rounded text-sm bg-opacity-30'>
                                                     <FaHeart />
                                                 </button> */}
